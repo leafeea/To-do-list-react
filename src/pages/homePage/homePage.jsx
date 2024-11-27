@@ -7,8 +7,8 @@ export const HomePage = () => {
         <main>
             <div className="content">
                 <h2 style={{textAlign:'center'}}>Welcome!</h2>
+                <ToDoForm></ToDoForm>
             </div>
-            <ToDoForm></ToDoForm>
         </main>
     );
 };
