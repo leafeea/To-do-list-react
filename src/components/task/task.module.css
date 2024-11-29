@@ -20,6 +20,11 @@
     margin-bottom: 8px;
 }
 
+.taskBottom{
+    display: flex;
+    justify-content: flex-end;
+}
+
 .taskTitle {
     font-size: 1.25rem;
     margin: 0;

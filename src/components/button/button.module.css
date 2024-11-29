@@ -1,14 +1,18 @@
-.button{
-    cursor: pointer;
+.button {
+    padding: 10px 20px;
     border: none;
-    outline: none;
-    border-radius: 5px;
-    background: #32dd41;
-    padding: 10px 25px;
-    color: #fff;
-    transition: background 0.15s;
+    cursor: pointer;
+    transition: background 0.3s;
+    color: white;
+    background: var(--button-bg, rgba(50, 221, 65, 0.82));
 }
 
-.button:hover{
-    background: rgba(50, 221, 65, 0.82);
+.button:hover {
+    background: var(--button-hover-bg, rgba(50, 221, 65, 0.82));
+}
+
+.delete {
+    --button-bg: rgba(221, 50, 76, 0.82);
+    --button-hover-bg: rgba(221, 50, 76, 0.62);
+    margin: 0 5px;
 }

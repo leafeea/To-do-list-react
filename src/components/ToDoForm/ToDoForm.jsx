@@ -1,4 +1,4 @@
-import React, {useContext, useState, useEffect} from 'react';
+import React, {useContext, useState} from 'react';
 import classes from './ToDoForm.module.css'
 import {Input} from "../input/input.jsx";
 import {Button} from "../button/button.jsx";
@@ -11,6 +11,7 @@ export const ToDoForm = () => {
 
     function createTask(e){
         e.preventDefault();
+        if(title.trim().length === 0 || tag.trim().length === 0) return;
         if(isExistingTask(title,tag)) return;
         const newTask = {
             id: Date.now(),
