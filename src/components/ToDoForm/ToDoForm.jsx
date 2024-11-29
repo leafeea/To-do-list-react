@@ -15,7 +15,8 @@ export const ToDoForm = () => {
         const newTask = {
             id: Date.now(),
             title: title,
-            tag: tag
+            tag: tag,
+            isComplete: false
         }
 
         setTasks([...tasks, newTask]);

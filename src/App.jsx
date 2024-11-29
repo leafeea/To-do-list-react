@@ -1,5 +1,5 @@
 import {createContext, useState} from 'react'
-import {Header} from './components/header.jsx'
+import {Header} from './components/header/header.jsx'
 import {HomePage} from "./pages/homePage/homePage.jsx";
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 import './App.css'
@@ -7,7 +7,7 @@ import './App.css'
 export const TasksContext = createContext();
 
 function App() {
-    const [linkList, setLinkList] = useState([
+    const [linkList] = useState([
         {'label': 'Home', 'link': ''},
         {'label': 'Git-link', 'link': 'github'},])
     const [tasks, setTasks] = useState([]);
