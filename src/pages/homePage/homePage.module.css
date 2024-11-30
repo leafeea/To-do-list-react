@@ -5,12 +5,22 @@
 
 .toDoListWrapper{
     display: flex;
+    margin-top: 15px;
 }
 
-.toDoListRow.select{
+.toDoListRow.selectRow{
     flex: 0.2;
+    background: #fdfdfd;
+    padding: 15px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    align-self: flex-start; /* Принудительно оставить высоту минимальной */
+    height: auto; /* Сохраняет авто высоту по контенту */
 }
 
 .toDoListRow.list{
     flex: 0.8;
+}
+
+.selectTag{
+    padding: 2px 5px;
 }
