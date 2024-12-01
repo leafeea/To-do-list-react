@@ -11,7 +11,8 @@
 .toDoListRow.selectRow{
     flex: 0.2;
     background: #fdfdfd;
-    padding: 15px 0;
+    padding: 20px;
+    margin-right: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     align-self: flex-start; /* Принудительно оставить высоту минимальной */
     height: auto; /* Сохраняет авто высоту по контенту */
@@ -22,5 +23,19 @@
 }
 
 .selectTag{
-    padding: 2px 5px;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    color: #333;
+    font-size: 16px;
+    outline: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.navigationByType{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
 }

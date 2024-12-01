@@ -8,7 +8,7 @@
 }
 
 .button:hover {
-    background: var(--button-hover-bg, rgba(50, 221, 65, 0.82));
+    background: var(--button-hover-bg, rgba(50, 221, 65, 0.68));
 }
 
 .delete {
@@ -16,3 +16,10 @@
     --button-hover-bg: rgba(221, 50, 76, 0.62);
     margin: 0 5px;
 }
+
+.inactive {
+    --button-bg: rgba(236, 224, 226, 0.82);
+    --button-hover-bg: rgba(216, 204, 206, 0.82);
+}
+
+
