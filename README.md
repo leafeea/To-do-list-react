@@ -1,8 +1,21 @@
-# React + Vite
+# To-do list in React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+UA: Це простий To-do лист, у якого є теги та фільтрація по тегам. Також завдання можна видалити або помітити як виконаним.
+Стилізація зроблена за допомогою module.css
 
-Currently, two official plugins are available:
+# Скріншоти роботи
+Скріншот інтерфейсу
+![img.png](src/assets/screenshots_for_readme/img.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Приклад доданного завдання
+![img_1.png](src/assets/screenshots_for_readme/img_1.png)
+
+
+Приклад фільтрації по тегам
+![img_2.png](src/assets/screenshots_for_readme/img_2.png)
+![img_3.png](src/assets/screenshots_for_readme/img_3.png)
+![img_4.png](src/assets/screenshots_for_readme/img_4.png)
+
+Видалення та помітка як "Виконане"
+![img_6.png](src/assets/screenshots_for_readme/img_6.png)
+![img_5.png](src/assets/screenshots_for_readme/img_5.png)
